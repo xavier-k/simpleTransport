@@ -1,14 +1,25 @@
 ■collect docker log using fluent
 https://segmentfault.com/a/1190000000730444
+http://www.imekaku.com/2016/09/08/docker-log-fluentd/　★
+https://docs.docker.com/config/containers/logging/fluentd/
+https://qiita.com/RyujiKawazoe/items/1a88115f0b74a4747e28　★pic of settings and customerizd tag
+
 ■using fluent log driver for task on fargate
-https://dev.classmethod.jp/cloud/aws/fargate-fluentd-s3/
+https://dev.classmethod.jp/cloud/aws/fargate-fluentd-s3/  ★
+
 ■Container log postion
 https://medium.com/quiq-blog/logging-in-aws-elastic-container-services-ecs-21ce7781be18
+
 ■using fluent log driver on ECS(EC2 type)
-https://aws.amazon.com/cn/blogs/compute/building-a-scalable-log-solution-aggregator-with-aws-fargate-fluentd-and-amazon-kinesis-data-firehose/
+https://aws.amazon.com/cn/blogs/compute/building-a-scalable-log-solution-aggregator-with-aws-fargate-fluentd-and-amazon-kinesis-data-firehose/　　★
+
 ■read log from cloudwatch
 https://stackoverflow.com/questions/40748549/api-to-fetch-logs-from-cloudwatch
 □using API
 https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_GetLogEvents.html
+
 ■build your own VPN
 https://www.comparitech.com/blog/vpn-privacy/how-to-make-your-own-free-vpn-using-amazon-web-services/
+
+■fluent紹介
+http://www.imekaku.com/2016/09/26/fluentd-conclusion/
