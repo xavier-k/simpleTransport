@@ -1,0 +1,12 @@
+■collect docker log using fluent
+https://segmentfault.com/a/1190000000730444
+■using fluent log driver for task on fargate
+https://dev.classmethod.jp/cloud/aws/fargate-fluentd-s3/
+■Container log postion
+https://medium.com/quiq-blog/logging-in-aws-elastic-container-services-ecs-21ce7781be18
+■using fluent log driver on ECS(EC2 type)
+https://aws.amazon.com/cn/blogs/compute/building-a-scalable-log-solution-aggregator-with-aws-fargate-fluentd-and-amazon-kinesis-data-firehose/
+■read log from cloudwatch
+https://stackoverflow.com/questions/40748549/api-to-fetch-logs-from-cloudwatch
+□using API
+https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_GetLogEvents.html
