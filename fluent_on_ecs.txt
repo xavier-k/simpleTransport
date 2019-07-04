@@ -10,3 +10,5 @@ https://aws.amazon.com/cn/blogs/compute/building-a-scalable-log-solution-aggrega
 https://stackoverflow.com/questions/40748549/api-to-fetch-logs-from-cloudwatch
 □using API
 https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_GetLogEvents.html
+■build your own VPN
+https://www.comparitech.com/blog/vpn-privacy/how-to-make-your-own-free-vpn-using-amazon-web-services/
