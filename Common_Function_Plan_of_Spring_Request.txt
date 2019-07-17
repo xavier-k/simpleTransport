@@ -5,7 +5,7 @@ https://www.cnblogs.com/WellHold/p/6655769.html
 ★★★JSでAOPの実現案★★★
 https://lonhon.top/2018/02/05/AOP-in-javasript/
 
-
-
+org.apache.catalina.core.ApplicationDispatcher.WRAP_SAME_OBJECT=true
+https://qiita.com/NagaokaKenichi/items/2f199134a881a776b717
 https://www.baeldung.com/spring-boot-add-filter
 https://qiita.com/NagaokaKenichi/items/630ce51bbe2b15589dd2
