@@ -1,0 +1,18 @@
+2019-07-29 18:07:39.768 [http-nio-8904-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-29 18:07:39.768 [http-nio-8904-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-29 18:07:39.768 [http-nio-8904-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 18:07:39.788 [http-nio-8904-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 18:07:39.788 [http-nio-8904-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2019-07-29 18:07:39.809 [http-nio-8904-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/gas/v1/areas/999", parameters={}
+2019-07-29 18:07:39.823 [http-nio-8904-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.concurrent.CompletableFuture<java.lang.String> com.looop.console.gas.api.restapi.controller.GasAreasControllerV1.findByContractorZipCode(java.lang.String)
+2019-07-29 18:07:39.849 [http-nio-8904-exec-2] DEBUG o.s.web.context.request.async.WebAsyncManager - Started async request
+2019-07-29 18:07:39.850 [http-nio-8904-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting but response remains open for further handling
+2019-07-29 18:07:39.876 [Thread-15] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-07-29 18:07:40.009 [Thread-15] DEBUG org.hibernate.SQL - select mgasavaila0_.zipCode as zipCode1_0_, mgasavaila0_.area as area2_0_ from m_gas_available_area_tmp mgasavaila0_ where mgasavaila0_.zipCode=?
+2019-07-29 18:07:40.018 [Thread-15] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [999]
+2019-07-29 18:07:40.073 [Thread-15] DEBUG o.s.web.context.request.async.WebAsyncManager - Async result set, dispatch to /gas/v1/areas/999
+2019-07-29 18:07:40.079 [http-nio-8904-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - "ASYNC" dispatch for GET "/gas/v1/areas/999", parameters={}
+2019-07-29 18:07:40.082 [http-nio-8904-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Resume with async result ["{"code":0,"data":{"zipCode":"999","area":"test"}}"]
+2019-07-29 18:07:40.090 [http-nio-8904-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2019-07-29 18:07:40.090 [http-nio-8904-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["{"code":0,"data":{"zipCode":"999","area":"test"}}"]
+2019-07-29 18:07:40.097 [http-nio-8904-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ASYNC" dispatch, status 200
