@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/38281512/how-to-read-data-from-java-properties-file-using-spring-boot
